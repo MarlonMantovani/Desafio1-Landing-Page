@@ -1,0 +1,116 @@
+* {
+    font-family: "inter";
+    margin: 0px;
+}
+
+#titulo-principal {
+    background-color: #303030;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+}
+
+h1 {
+      font-size: 55px; 
+}
+
+h1::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+
+#dados-da-empresa {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    
+}
+
+.data-number{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+#div-texto-imagem {
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#div-texto {
+    margin-left: 60px;
+    
+}
+
+#div-imagem {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+h2 {
+    font-size: 28px;
+    padding-top: 150px;
+    margin-bottom: 35px;
+}
+
+#paragrafo {
+    font-size: 17px;
+}
+
+#div-formulario {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
+input {
+    width: 290px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-left: 15px;
+    color: #0000004D;
+    font-style: bold;
+    
+}
+
+
+
+button {
+    width: 175px;
+    height: 45px;
+    background-color: #C07212;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff8c00;
+    color: white;
+    box-shadow: 0px 15px 20px #000000;
+    transition-duration: 0.5s;
+    transform: translateY(-7px);
+}
